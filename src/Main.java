@@ -9,8 +9,10 @@ public class Main {
         int sum = number1 + number2;
         int difference = number1 - number2;
         int product = number1 * number2;
+        float chast = (float) number1 / number2;
         System.out.println("Сумма: " + sum);
         System.out.println("Разность: " + difference);
         System.out.println("Произведение: " + product);
+        System.out.println("Частное: " + chast);
     }
 }
